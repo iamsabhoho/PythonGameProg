@@ -1,0 +1,3 @@
+8/25: learn how powerful python is and getting to know more about git commands. 
+
+8/29: learned about the naming in python. identified the good and the bad naming and used them in the program we did in the class. wrote a simple program regarding counting surface area and volume for different shapes. 
