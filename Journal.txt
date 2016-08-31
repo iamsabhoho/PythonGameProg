@@ -2,4 +2,6 @@
 
 8/29: learned about the naming in python. identified the good and the bad naming and used them in the program we did in the class. wrote a simple program regarding counting surface area and volume for different shapes. 
 
-8/30: had an issue last night because when uploading the programs, it died. and when i checked this morning, i only uploaded the first program. as soon as i found out about it, i upload the second one. sorry for the late turn in. 
+8/30: had an issue last night because when uploading the programs, it died. and when i checked this morning, i only uploaded the first program. as soon as i found out about it, i upload the second one. sorry for the late turn in.
+
+8/31: learned the if-else statement in python. it is different from the languages i have learned before. and some operations when using if-else statement. wrote a program regarding solar system. it is not done yet, and i have met some problems I’m not sure how to solve it. but will look up information about python later tonight to try finishing the program. 
