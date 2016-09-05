@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a223efb0-3f95-47b7-a0b4-cd3db2489fda" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Driving.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Monkeys.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SolarSystem.ipynb" afterPath="$PROJECT_DIR$/SolarSystem.ipynb" />
-    </list>
+    <list default="true" id="a223efb0-3f95-47b7-a0b4-cd3db2489fda" name="Default" comment="" />
     <ignored path="PythonProg.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

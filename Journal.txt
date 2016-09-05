@@ -7,3 +7,5 @@
 8/31: learned the if-else statement in python. it is different from the languages i have learned before. and some operations when using if-else statement. wrote a program regarding solar system. it is not done yet, and i have met some problems I’m not sure how to solve it. but will look up information about python later tonight to try finishing the program. 
 
 9/1: learned pycharm but somehow it was not working at first. and also looked up some information about boolean operations. and going to use it in the homework today. 
+
+9/5: got some feedback on the previous programs, will be changing based on the comments. did programs in class and learned new functions and skills to write python programs. hopefully will be learning more new stuff soon. 
