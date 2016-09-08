@@ -11,3 +11,5 @@
 9/5: got some feedback on the previous programs, will be changing based on the comments. did programs in class and learned new functions and skills to write python programs. hopefully will be learning more new stuff soon. 
 
 9/7: started the first task of today’s warm up and uploaded to the repository. will be working the second program as homework at home today and hopefully the third program too. used divmod and while loop in the program today. 
+
+9/8: added new functions to the rolling dice program and compared the 1000 rolls result with the 10000 rolls one. went through the task 3 program, which is about finding the minimum value of a given function. although have not finished in class, will continue working on this program at home. 
