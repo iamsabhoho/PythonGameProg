@@ -12,4 +12,6 @@
 
 9/7: started the first task of today’s warm up and uploaded to the repository. will be working the second program as homework at home today and hopefully the third program too. used divmod and while loop in the program today. 
 
-9/8: added new functions to the rolling dice program and compared the 1000 rolls result with the 10000 rolls one. went through the task 3 program, which is about finding the minimum value of a given function. although have not finished in class, will continue working on this program at home. 
+9/8: added new functions to the rolling dice program and compared the 1000 rolls result with the 10000 rolls one. went through the task 3 program, which is about finding the minimum value of a given function. although have not finished in class, will continue working on this program at home.
+
+9.19: we were supposed to do several programs today but got stuck on the second task, which is the one asked to find the nth prime numbers. i down think the algorithm it self is that hard, but the logic inside is hard to understand. but at the very end of the class we were able to figure it out, almost. 
