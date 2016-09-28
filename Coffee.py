@@ -1,10 +1,10 @@
-from time import sleep
+import time
 import signal
 
 TIMEOUT = 10
 TIMEOUT2 = 0
 p = 0
-time = 0
+ptime = 0
 LS = 20
 LB = 30
 AS = 30
@@ -19,10 +19,19 @@ while True:
     print('3 - Expresso')
     c = int(input('What type of coffee would you like to order?(Type in the number): '))
 
+    if c >= 4:
+        print('Invalid input.')
+        print(' ')
+        continue
+
     print('This are the sizes for coffee: ')
     print('1 - BIG')
     print('2 - SMALL')
     size = int(input('What size of coffee would you like?(Type in the number): '))
+
+    if size >= 3:
+        print('Invalid input.')
+        continue
 
     if c == 1:
         ptime = 6
@@ -55,6 +64,7 @@ while True:
         print('Please order again.')
 
 
+
     s = int(input('How many sugar would you like?(0-5): '))
     ps = s*1
     t = p + ps
@@ -68,10 +78,14 @@ while True:
 
     if sin == 'START':
         print('The time required for preparation is: ' + str(ptime) + ' s.')
-        TIMEOUT2 = ptime
-        signal.alarm(TIMEOUT2)
-        signal.alarm(0)
-        if TIMEOUT2 == 0:
+        boom = ptime
+        while boom > 0:
+            time.sleep(1)
+            print(boom)
+            boom -=1
+        if boom == 0:
             print('READY')
+            break
+
     else:
         continue
