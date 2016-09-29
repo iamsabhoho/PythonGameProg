@@ -6,7 +6,8 @@ TIMEOUT2 = 0
 p = 0
 ptime = 0
 LS = 20
-LB, AS = 30 
+LB = 30
+AS = 30
 AB = 50
 ES = 25
 EB = 40
@@ -32,28 +33,19 @@ while True:
         print('Invalid input.')
         continue
 
-    if c == 1:
-        ptime = 6
-        if size == 1:
-            p = LB
-        else:
-            p = LS
+    TandP = [[6, LB, LS], [4, AB, AS], [5, EB, ES]]
 
-    elif c == 2:
-        ptime = 4
-        if size == 1:
-            p = AB
-        else:
-            p = AS
-
-    elif c == 3:
-        ptime = 5
-        if size == 1:
-            p = EB
-        else:
-            p = ES
+    Tuple = TandP[c-1]
+    ptime = Tuple[0]
+    if size == 1:
+        p = Tuple[1]
+        print(p)
+    elif size == 2:
+        p = Tuple[2]
+        print(p)
     else:
         print('Please order again.')
+
 
     s = int(input('How many sugar would you like?(0-5): '))
     ps = s*1
