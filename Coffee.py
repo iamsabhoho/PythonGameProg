@@ -6,8 +6,7 @@ TIMEOUT2 = 0
 p = 0
 ptime = 0
 LS = 20
-LB = 30
-AS = 30
+LB, AS = 30 
 AB = 50
 ES = 25
 EB = 40
@@ -37,33 +36,24 @@ while True:
         ptime = 6
         if size == 1:
             p = LB
-        elif size == 2:
-            p = LS
         else:
-            print('Please order again.')
-            break
+            p = LS
+
     elif c == 2:
         ptime = 4
         if size == 1:
             p = AB
-        elif size == 2:
-            p = AS
         else:
-            print('Please order again.')
-            break
+            p = AS
+
     elif c == 3:
         ptime = 5
         if size == 1:
             p = EB
-        elif size == 2:
-            p = ES
         else:
-            print('Please order again.')
-            break
+            p = ES
     else:
         print('Please order again.')
-
-
 
     s = int(input('How many sugar would you like?(0-5): '))
     ps = s*1

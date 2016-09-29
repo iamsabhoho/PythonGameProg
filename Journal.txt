@@ -17,3 +17,7 @@
 9/19: we were supposed to do several programs today but got stuck on the second task, which is the one asked to find the nth prime numbers. i down think the algorithm it self is that hard, but the logic inside is hard to understand. but at the very end of the class we were able to figure it out, almost. 
 
 9/26: test today. the test is really hard. the second task was fine but it takes time. the other two are the hardest because we had to correct the first flow diagram and for #3, there are so many functions, which makes it harder to organise. 
+
+9/28: Improve on the coffee machine and successfully completed the program. 
+
+9/29: Leanring functions in python today and trying to improve the coffee machine so it looks better. hopefully i i could found the way to simplify the equations and the diagram. 
