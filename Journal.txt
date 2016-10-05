@@ -23,3 +23,5 @@
 9/29: Leanring functions in python today and trying to improve the coffee machine so it looks better. hopefully i i could found the way to simplify the equations and the diagram. 
 
 10/3: practiced with functions during the class today. and had a very intense homework/project coming up. hopefully i will be able to use the functions correctly to simplify the programs. 
+
+10/5: learned the list in python and practiced it with the python. keep working on the lego project. but it is really really hard to do it .-. 
