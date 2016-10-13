@@ -3,26 +3,28 @@
 
 print('The options are: ')
 #list = input()
-list = ['Meat','Chicken','Fish']
-print(list)
+#menu = ['Meat','Chicken','Fish']
+menu = []
+print(menu)
 print()
 
-def options():
-    for i in range(len(list)):
+def options(menu):
+    menu = input('Please enter the options: ')
+    for i in range(len(menu)):
         option = i + 1
-        print(str(option) + list[i])
+        print(str(option) + menu[i])
 
     user = input('What is your preference? Press X to exit: ')
     if user == 'x':
         exit()
     elif user == '1':
-        print(list[0])
+        print(menu[0])
         return user
     elif user == '2':
-        print(list[1])
+        print(menu[1])
         return user
     else:
-        print(list[2])
+        print(menu[2])
         return user
     return user
 

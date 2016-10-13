@@ -27,3 +27,5 @@
 10/5: learned the list in python and practiced it with the python. keep working on the lego project. but it is really really hard to do it .-. 
 
 10/12: learned the list comprehension and did several examples in class. will be doing the challenge of the google counting. 
+
+10/13: keep working on the predicting word program. discuss the functions needed in the program and started to write the sudo codes of each functions. corrected the error of the ‘mastering function’ wup. 
