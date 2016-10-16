@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a223efb0-3f95-47b7-a0b4-cd3db2489fda" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MasteringFunctions/PrintingMenu.py" afterPath="$PROJECT_DIR$/MasteringFunctions/PrintingMenu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEGO/Legos.py" afterPath="$PROJECT_DIR$/LEGO/Legos.py" />
     </list>
     <ignored path="PythonProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +27,31 @@
       <file leaf-file-name="List.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/List.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
+            <state relative-caret-position="918">
               <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintingMenu.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintingMenu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MasteringFunctions/PrintingMenu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Legos.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LEGO/Legos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +102,6 @@
         <option value="$PROJECT_DIR$/ListAverage.py" />
         <option value="$PROJECT_DIR$/Map.py" />
         <option value="$PROJECT_DIR$/LEGO/Lego Challenge.ipynb" />
-        <option value="$PROJECT_DIR$/LEGO/Legos.py" />
         <option value="$PROJECT_DIR$/MultiplyList.py" />
         <option value="$PROJECT_DIR$/MasteringFunctions/ReturnPosition.py" />
         <option value="$PROJECT_DIR$/MasteringFunctions/WordsInFrame.py" />
@@ -100,6 +112,7 @@
         <option value="$PROJECT_DIR$/MasteringFunctions/Occurrences.py" />
         <option value="$PROJECT_DIR$/List.py" />
         <option value="$PROJECT_DIR$/MasteringFunctions/PrintingMenu.py" />
+        <option value="$PROJECT_DIR$/LEGO/Legos.py" />
       </list>
     </option>
   </component>
@@ -166,6 +179,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonProg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonProg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEGO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -176,24 +203,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
   </component>
-  <component name="RunManager" selected="Python.PrintingMenu">
-    <configuration default="false" name="MultiplyList" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MasteringFunctions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasteringFunctions/MultiplyList.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Legos">
     <configuration default="false" name="Combine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,6 +268,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasteringFunctions/PrintingMenu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Legos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LEGO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LEGO/Legos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -410,19 +437,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MultiplyList" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Combine" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Occurrences" />
-      <item index="3" class="java.lang.String" itemvalue="Python.List" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PrintingMenu" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Combine" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Occurrences" />
+      <item index="2" class="java.lang.String" itemvalue="Python.List" />
+      <item index="3" class="java.lang.String" itemvalue="Python.PrintingMenu" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Legos" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PrintingMenu" />
-        <item index="1" class="java.lang.String" itemvalue="Python.List" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Occurrences" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Combine" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MultiplyList" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Legos" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PrintingMenu" />
+        <item index="2" class="java.lang.String" itemvalue="Python.List" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Occurrences" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Combine" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +466,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14094433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.303268" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.303268" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -594,13 +621,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MultiplyList.py" />
-    <entry file="file://$PROJECT_DIR$/LEGO/Legos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MasteringFunctions/Accumulation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -652,7 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/List.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
+        <state relative-caret-position="918">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
@@ -660,9 +680,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MasteringFunctions/PrintingMenu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LEGO/Legos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

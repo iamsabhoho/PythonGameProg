@@ -1,23 +1,37 @@
-# library for scientific computations
-import numpy as np
-#library for graphs
-import matplotlib.pyplot as plt
+import numpy as np #libary of functions
+import math as m #math fucntions
+import matplotlib.pyplot as plt #for plotting points on graph
 
-# read text file
-legos = np.loadtxt('Legos.txt',delimiter=',')
+countBricks = 0
+countBeams= 0
 
-# show the number of elements in legos
-len(legos)
+#read file
+legos = np.loadtxt('Legos2.txt',delimiter=',')
 
-# show the dimensions of legos (# of rows, # columns)
-np.shape(legos)
+#beams: (7,4)
+def beams(x,y):
+    distance = m.sqrt(x**2 + y**2)
+    return distance
 
-# show every pair of points
+#bricks: (3,5)
+def bricks(x,y):
+    distance = m.sqrt(x**2 + y**2)
+    return distance
+
+#comparing distance for beams and bricks from the text file
 for x, y in legos:
-    print(x,y)
+    if beams(x, y) < bricks(x, y):
+        countBeams += 1
+        plt.scatter(x, y, color = "red")
+        plt.show()
+    else:
+        countBricks += 1
+        plt.scatter(x, y, color = "blue")
+        plt.show()
 
-# print each pair of points in a scatter plot
-for x, y in legos:
-    plt.scatter(x,y,color='gray')
-plt.show()
+beamlist = [(x, y) for x, y in legos if beams(x, y) < bricks(x, y)]
+bricklist = [(x, y) for x, y in legos if beams(x, y) > bricks(x, y)]
+
+print("The Number of Beams: %r" %countBeams)
+print("The Number of Bricks: %r" %countBricks)
 
