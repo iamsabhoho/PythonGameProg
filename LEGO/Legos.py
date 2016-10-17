@@ -23,11 +23,12 @@ for x, y in legos:
     if beams(x, y) < bricks(x, y):
         countBeams += 1
         plt.scatter(x, y, color = "red")
-        plt.show()
+
     else:
         countBricks += 1
         plt.scatter(x, y, color = "blue")
-        plt.show()
+
+plt.show()
 
 beamlist = [(x, y) for x, y in legos if beams(x, y) < bricks(x, y)]
 bricklist = [(x, y) for x, y in legos if beams(x, y) > bricks(x, y)]
