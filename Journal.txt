@@ -29,3 +29,5 @@
 10/12: learned the list comprehension and did several examples in class. will be doing the challenge of the google counting. 
 
 10/13: keep working on the predicting word program. discuss the functions needed in the program and started to write the sudo codes of each functions. corrected the error of the ‘mastering function’ wup. 
+
+10/17: built up several functions for the predicting word challenge, tried it on an example. will be doing word generator for homework and generate 100 times. 
