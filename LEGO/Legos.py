@@ -32,6 +32,6 @@ for x, y in legos:
 beamlist = [(x, y) for x, y in legos if beams(x, y) < bricks(x, y)]
 bricklist = [(x, y) for x, y in legos if beams(x, y) > bricks(x, y)]
 
-print("The Number of Beams: %r" %countBeams)
-print("The Number of Bricks: %r" %countBricks)
+print("Beams: %r" %countBeams)
+print("Bricks: %r" %countBricks)
 
