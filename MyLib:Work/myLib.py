@@ -44,14 +44,13 @@ def probOcurrence(count):
         total += p
         density.append(total)
     return density
-
+'''
 def randomWord(words, density):
-    '''
+
     generate the next word
     :param words:
     :param density:
     :return:
-    '''
    import random as rn
     n = rn.random()
     idx = 0
@@ -59,4 +58,26 @@ def randomWord(words, density):
         idx += 1
     return words[idx]
 
+'''
 
+def randomCmate(inputlist = ['Sabrina','Cici','Stephanie','Daniel','Darren']):
+    '''
+    select a classmate name at random
+    return classmate name
+    '''
+    import random as rn
+
+    NumStu = len(inputlist) - 1
+    x = rn.randint(0, NumStu)
+
+    name = inputlist[x]
+    print(name)
+
+    return name
+
+def capitalize(words = ['Bob', 'JOHN','alice','bob','ALICE','J','Bob']):
+
+    name = [x.upper() for x in words]
+    print(name)
+
+    return name
