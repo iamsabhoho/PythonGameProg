@@ -31,3 +31,5 @@
 10/13: keep working on the predicting word program. discuss the functions needed in the program and started to write the sudo codes of each functions. corrected the error of the ‘mastering function’ wup. 
 
 10/17: built up several functions for the predicting word challenge, tried it on an example. will be doing word generator for homework and generate 100 times. 
+
+10/20: learned more about list comp and did several small programs as practice today. will be working the other two programs tonight. 

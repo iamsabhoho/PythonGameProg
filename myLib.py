@@ -77,7 +77,23 @@ def randomCmate(inputlist = ['Sabrina','Cici','Stephanie','Daniel','Darren']):
 
 def capitalize(words = ['Bob', 'JOHN','alice','bob','ALICE','J','Bob']):
 
-    name = [x.upper() for x in words]
+    name = [x[0].upper() + x[1:].lower() for x in words if len(x) > 2]
     print(name)
 
     return name
+
+def combinelists(colors = ['red','yellow','blue'], clothes = ['hat','shirt', 'pants']):
+    x = [a + ' ' + b for a in colors for b in clothes]
+    print(x)
+
+    return x
+
+def takeOutVowels(sentence = 'Your mother was a hamster', vowels = ['aeiou']):
+    x = [l for l in sentence if l not in 'aeiou']
+    print(x)
+
+    s = ''
+    for l in x:
+        s+= l
+    print(s)
+    return s
