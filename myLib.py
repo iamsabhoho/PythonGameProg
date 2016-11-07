@@ -97,3 +97,6 @@ def takeOutVowels(sentence = 'Your mother was a hamster', vowels = ['aeiou']):
         s+= l
     print(s)
     return s
+
+
+

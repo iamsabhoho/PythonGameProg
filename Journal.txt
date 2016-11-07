@@ -35,3 +35,5 @@
 10/20: learned more about list comp and did several small programs as practice today. will be working the other two programs tonight. 
 
 10/24: started working on the dictionaries in python. practiced some methods for dictionary and created some functions for it. will be figuring out how one of the function works. 
+
+11/7: continue working on the tic tac toe program. and continue working on the minimax ai algorithm. 
