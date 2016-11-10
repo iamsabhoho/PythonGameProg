@@ -1,11 +1,11 @@
 def displayGrid(grid):
     #prints out grids and values
 
-    print('   ' + grid[1] + '|' + grid[2] + '   |' + grid[3])
+    print('  ' + grid[1] + '|' + grid[2] + '  |' + grid[3])
     print('___|___|___ ')
-    print('  ' + grid[4] + ' |' + grid[5] + '   |' + grid[6])
+    print('  ' + grid[4] + '|' + grid[5] + '  |' + grid[6])
     print('___|___|___')
-    print('   ' + grid[7] + '|' + grid[8] + '   |' + grid[9])
+    print('  ' + grid[7] + '|' + grid[8] + '  |' + grid[9])
 
     return
 

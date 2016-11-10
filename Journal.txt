@@ -37,3 +37,5 @@
 10/24: started working on the dictionaries in python. practiced some methods for dictionary and created some functions for it. will be figuring out how one of the function works. 
 
 11/7: continue working on the tic tac toe program. and continue working on the minimax ai algorithm. 
+
+11/10: continue working with the tic tac toe game. added several new functions, and solved the problem of the grid looking really bad. 
