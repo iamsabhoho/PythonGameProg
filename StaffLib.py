@@ -44,4 +44,8 @@ def addingDays():
         e['daysWorked'] += 1
 
 
+def removeE():
+
+
+
 

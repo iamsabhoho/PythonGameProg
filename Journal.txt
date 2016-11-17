@@ -41,3 +41,7 @@
 11/10: continue working with the tic tac toe game. added several new functions, and solved the problem of the grid looking really bad. 
 
 11/14: worked on the homework that i got stuck during the weekend and it is almost finished with the help from the teachers and students. will be looking at the warm up later today. 
+
+11/16: started on the topic of recursion, and will be working on drawing out the trees later tonight. 
+
+11/17: continue working on the recursion to draw the triangle and improved the function of tree branches. but still failed to do so, will be looking more into recursion to improve the program. 
