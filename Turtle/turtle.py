@@ -1,6 +1,6 @@
 import turtle
 
-def tree(sqrlen, tur, b):
+def sqr(sqrlen, tur):
     """
     #draw a tree with turtle
     :param sqrlen: the len of the square
@@ -12,7 +12,7 @@ def tree(sqrlen, tur, b):
     else:
         tur.fd(sqrlen)
 
-        tree(sqrlen-20, tur, 10)
+        sqr(sqrlen-20, tur)
 
 #creates window
 myWin = turtle.Screen()
@@ -21,6 +21,6 @@ rp = turtle.Turtle()
 #turing left
 rp.left(90)
 #draw square
-tree(150, rp, 10)
+sqr(150, rp)
 #close the window with a click
 myWin.exitonclick()
