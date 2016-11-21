@@ -30,7 +30,7 @@ def checkWinner(grid):
     elif grid[3] == grid[5] == grid[7]:
         result = grid[3]
     else:
-        result = False
+        result = None
 
     return result
 

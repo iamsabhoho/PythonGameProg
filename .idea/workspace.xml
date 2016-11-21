@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a223efb0-3f95-47b7-a0b4-cd3db2489fda" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Recursive/CalcInt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Recursive/PascalTri.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Turtle/triangle.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exampletri.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/triangle.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tree.py" afterPath="$PROJECT_DIR$/Turtle/tree.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/turtle.py" afterPath="$PROJECT_DIR$/Turtle/turtle.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Recursive/FindingFiles.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GridInGrid.py" afterPath="$PROJECT_DIR$/GridInGrid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recursive/PascalTri.py" afterPath="$PROJECT_DIR$/Recursive/PascalTri.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TikTokLib.py" afterPath="$PROJECT_DIR$/TikTokLib.py" />
     </list>
     <ignored path="PythonProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,21 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PascalTri.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Recursive/PascalTri.py">
+      <file leaf-file-name="FindingFiles.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Recursive/FindingFiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcInt.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Recursive/CalcInt.py">
+      <file leaf-file-name="GridInGrid.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GridInGrid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="148">
+              <caret line="76" column="50" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TikTokLib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TikTokLib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -65,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/922task7.py" />
-        <option value="$PROJECT_DIR$/multiplicationtable.py" />
         <option value="$PROJECT_DIR$/reversingwords.py" />
         <option value="$PROJECT_DIR$/Palindrome.py" />
         <option value="$PROJECT_DIR$/VendingMachine.py" />
@@ -103,8 +107,6 @@
         <option value="$PROJECT_DIR$/eng2spanish.py" />
         <option value="$PROJECT_DIR$/myLib.py" />
         <option value="$PROJECT_DIR$/OXgame.py" />
-        <option value="$PROJECT_DIR$/TikTokLib.py" />
-        <option value="$PROJECT_DIR$/GridInGrid.py" />
         <option value="$PROJECT_DIR$/MasteringDic/StaffLib.py" />
         <option value="$PROJECT_DIR$/MasteringDic/Store.py" />
         <option value="$PROJECT_DIR$/Store.py" />
@@ -114,8 +116,12 @@
         <option value="$PROJECT_DIR$/turtle.py" />
         <option value="$PROJECT_DIR$/triangle.py" />
         <option value="$PROJECT_DIR$/CalcInt.py" />
-        <option value="$PROJECT_DIR$/Recursive/PascalTri.py" />
         <option value="$PROJECT_DIR$/Recursive/CalcInt.py" />
+        <option value="$PROJECT_DIR$/Recursive/PascalTri.py" />
+        <option value="$PROJECT_DIR$/Recursive/FindingFiles.py" />
+        <option value="$PROJECT_DIR$/UnpackTicTac.py" />
+        <option value="$PROJECT_DIR$/TikTokLib.py" />
+        <option value="$PROJECT_DIR$/GridInGrid.py" />
       </list>
     </option>
   </component>
@@ -181,34 +187,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonProg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonProg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Recursive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonProg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonProg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listComp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -225,41 +203,7 @@
       <recent name="$PROJECT_DIR$/Turtle" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CalcInt">
-    <configuration default="false" name="Store" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Store.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StaffLib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StaffLib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.GridInGrid">
     <configuration default="false" name="turtle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,6 +251,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recursive/CalcInt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnpackTicTac" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnpackTicTac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GridInGrid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GridInGrid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -459,19 +437,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Store" />
-      <item index="1" class="java.lang.String" itemvalue="Python.StaffLib" />
-      <item index="2" class="java.lang.String" itemvalue="Python.turtle" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PascalTri" />
-      <item index="4" class="java.lang.String" itemvalue="Python.CalcInt" />
+      <item index="0" class="java.lang.String" itemvalue="Python.turtle" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PascalTri" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CalcInt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.UnpackTicTac" />
+      <item index="4" class="java.lang.String" itemvalue="Python.GridInGrid" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.CalcInt" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PascalTri" />
-        <item index="2" class="java.lang.String" itemvalue="Python.turtle" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Store" />
-        <item index="4" class="java.lang.String" itemvalue="Python.StaffLib" />
+        <item index="0" class="java.lang.String" itemvalue="Python.GridInGrid" />
+        <item index="1" class="java.lang.String" itemvalue="Python.UnpackTicTac" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PascalTri" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CalcInt" />
+        <item index="4" class="java.lang.String" itemvalue="Python.turtle" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +463,7 @@
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16349542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17336152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.303268" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -526,8 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BinaryTest.py" />
-    <entry file="file://$PROJECT_DIR$/LineEquations.py" />
     <entry file="file://$PROJECT_DIR$/Binary.py" />
     <entry file="file://$PROJECT_DIR$/timer.py" />
     <entry file="file://$PROJECT_DIR$/SolarSystem.ipynb" />
@@ -683,29 +659,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OXgame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TikTokLib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MasteringDic/Store.py" />
     <entry file="file://$PROJECT_DIR$/MasteringDic/StaffLib.py" />
-    <entry file="file://$PROJECT_DIR$/GridInGrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StaffLib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -757,7 +712,7 @@
         <state relative-caret-position="166">
           <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,8 +735,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Recursive/PascalTri.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="265">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recursive/FindingFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OXgame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnpackTicTac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GridInGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="76" column="50" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TikTokLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding />
         </state>
       </provider>

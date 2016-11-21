@@ -15,7 +15,7 @@ else:
 gridStruct = {'grid': grid,
               'score': None,
               'turn': 'X',
-              'children': None}
+              'children': []}
 
 print(gridStruct)
 #Generate Children
@@ -51,7 +51,7 @@ def generateChildren(gridStruct):
             children.append(gridStructChild)
 
     if turn == 'human':
-        tl.checkWinner(grid) == gridStruct['turn']:
+        tl.checkWinner(grid) == gridStruct['turn']
         humanScore = -10
 
     else:
@@ -60,4 +60,32 @@ def generateChildren(gridStruct):
 
     return children
 
+def getChildren(gridStruct):
+    gridChildStruct = {}
+    grid = gridStruct['grid']
+    score = gridStruct['score']
+    turn = gridStruct['turn']
+    children = gridStruct['children']
+
+    if score is None:
+        for cellkey, cellValue in grid.items():
+            if cellValue is ' ':
+                gridChild = grid.copy()
+                gridChild[cellkey] = cellValue
+
+                scoreChild = tl.checkWinner(gridChild)
+                turnChild = 'X' if turn is 'O' else 'O'
+
+                gridChildStruct['grid'] = gridChild
+                gridChildStruct['score'] = scoreChild
+                gridChildStruct['turn'] = turnChild
+                gridChildStruct['children'] = []
+                tl.displayGrid(gridChild)
+
+                children.append(getChildren(gridStruct))
+        gridStruct['children'] = children
+
+    return gridStruct
+
 children = generateChildren(gridStruct)
+getChildren(gridStruct)

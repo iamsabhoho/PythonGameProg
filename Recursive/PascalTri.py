@@ -1,20 +1,28 @@
-def pas(n):
+def ptri(n, item):
     """
-    it draws the pascal triangle
-    :param n: how many levels
-    :return: the lists
+
+    :param n: level
+    :param item:
+    :return:
     """
-    a = []
-    b = []
+    print()
+    r = []
+    item.insert(0, 0)
+    item.append(0)
+    if n == 0:
+        return
+    else:
+        for i in range(len(item)-1):
+            r.append(item[i] + item[i+1])
+        for element in r:
+            print(str(element) + ' ', end='')
+        ptri(n-1, r) #so the termination will eventually happen
 
-    #The first item of each n
-    a[0] = 1
 
-    if n > 0:
-        b = pas(n-1)
-        for i in range(n):
-            a[i] = b[i] + b[i-1]
+def pascal(n):
+    print('1', end='')
+    ptri(n, [1])
 
-    return a, b
 
-print(pas(5))
+pascal(5)
+

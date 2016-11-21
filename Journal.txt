@@ -45,3 +45,5 @@
 11/16: started on the topic of recursion, and will be working on drawing out the trees later tonight. 
 
 11/17: continue working on the recursion to draw the triangle and improved the function of tree branches. but still failed to do so, will be looking more into recursion to improve the program. 
+
+11/21: worked on the pascal triangle with recursive for the first half period. finally get it done besides the format looks really bad. also, started using recursive in the tic tac toe game. 
