@@ -9,7 +9,7 @@ def displayGrid(grid):
 
     return
 
-def checkWinner(grid):
+def checkWinner(grid, symbol):
     #checking if they are lined up in either horizontal, vertical, or crossed
     if grid[1] == grid[2] == grid[3]:
         result = grid[1]
@@ -32,15 +32,22 @@ def checkWinner(grid):
     else:
         result = None
 
-    return result
+    space = 0
+    for i in range(0,8):
+        if grid[i+1] == ' ':
+            space += 1
 
-def menu():
-    print('This is the tic tac toe. There will be two users at one time.' +
-          'each person will get either a "x" or "o" as your symbol. ' +
-          ' ' + 'The ')
 
-    #print out whose turns it is: o or x
-
+    if symbol is 'H' and result is 'X':
+        return 10
+    elif symbol is 'H' and result is 'O':
+        return -10
+    elif symbol is 'M' and result is 'X':
+        return -10
+    elif symbol is 'M' and result is 'O':
+        return 10
+    if space == 0:
+            return 0
     return
 
 def playersInput(grid, turn):
@@ -57,3 +64,12 @@ def playersInput(grid, turn):
         print('This spot is taken.')
 
     return grid
+
+def menu():
+    print('This is the tic tac toe. There will be two users at one time.' +
+          'each person will get either a "x" or "o" as your symbol. ' +
+          ' ' + 'The ')
+
+    #print out whose turns it is: o or x
+
+    return
