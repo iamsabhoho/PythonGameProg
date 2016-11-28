@@ -51,3 +51,5 @@
 11/23: continue working on the tic tac toe game, generate several issues. T^T 
 
 11/24: finally done fixing the problems with the checking score function. will be working on generating the best child during the weekend. 
+
+11/28: did final practice on recursive. and started learning string methods and have some work to do at home. 
