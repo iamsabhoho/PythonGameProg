@@ -5,6 +5,13 @@ numDict = {1:'one', 2:'two',3:'three',4:'four',5:'five',6:'six',7:'seven',8:'eig
 
 #user input
 numInt = int(input('Please Enter the number of the object(1~10): '))
+#check for invalid input of number
+for i in range(1,10):
+    if numInt < 1 or numInt > 10:
+        print('This input is Invalid')
+        numInt = int(input('Please Enter the number again(1~10): '))
+
+#then ask the user for the object
 object = input('Please Enter an object: ')
 
 #checking for the number whether it should be converted or not
@@ -16,8 +23,6 @@ if numInt > 1 and numInt < 10:
     else:
         p = object + 's'
     print(numDict[numInt] + ' ' + p)
-elif numInt < 1 or numInt > 10:
-    print('This input is Invalid')
 else:
     p = object
     print(numDict[numInt] + ' ' + p)
