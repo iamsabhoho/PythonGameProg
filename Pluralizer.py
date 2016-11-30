@@ -1,8 +1,10 @@
 #this program converts single object into plural by user inputing the number
 
 #The dictionary for number
-numDict = {1:'one', 2:'two',3:'three',4:'four',5:'five',6:'six',7:'seven',8:'eight',9:'nine',10:'ten'}
+numDict = {1:'one', 2:'two', 3:'three', 4:'four',
+           5:'five', 6:'six', 7:'seven', 8:'eight', 9:'nine', 10:'ten'}
 
+#there are some exceptions the english when converting
 #user input
 numInt = int(input('Please Enter the number of the object(1~10): '))
 #check for invalid input of number
