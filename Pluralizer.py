@@ -3,6 +3,7 @@
 #The dictionary for number
 numDict = {1:'one', 2:'two', 3:'three', 4:'four',
            5:'five', 6:'six', 7:'seven', 8:'eight', 9:'nine', 10:'ten'}
+exception = {'person':'people', 'mouse':'mice', 'focus': 'foci','deer':'deer', 'potato':'potatoes', 'man':'men', 'child':'children'}
 
 #there are some exceptions the english when converting
 #user input
@@ -22,6 +23,15 @@ if numInt > 1 and numInt < 10:
             or object[-1:] == 'x' or object[-1:] == 'z' or object[-1:] == 's' \
             or object[-2:] == 'ch' or object[-2:] == 'sh':
         p = object + 'es'
+
+    elif object[-1:] == 'y':
+        if object[-2:] == 'a' or object[-2:] == 'e' or \
+            object[-2:] == 'i' or object[-2:] == 'o' or object[-2:] == 'u':
+            p = object + 's'
+        else:
+            p = object.replace('y', 'ies')
+    elif object in exception.keys():
+            p = exception[object]
     else:
         p = object + 's'
     print(numDict[numInt] + ' ' + p)
