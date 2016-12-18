@@ -62,7 +62,15 @@ def decrypt(encrypted_msg, key='meowc'):
 
 i = cipher_alphabet()
 print(i)
-print(decrypt(''''''))
+print(decrypt('''ifz cda qmvmpdi ecdpdetmpfqtfeq tcdt jdam cmp queemqqsui fk ifsm.
+tcmqm ecdpdetmpfqtfeq nplnmiima cmp tcplubc tmppfrim elkaftflkq fk cmp ecfiaclla,
+ifvfkb fk ecdlq, smdp, dka mvmk qussmpfkb splj bpmdt ilqqmq.
+tcm ecdpdetmpfqtfeq qcm nlqqmqqmq dpm slpbfvmkmqq dka rpdvmkmqq.
+tcmqm ecdpdetmpfqtfeq ecdkbma fk afssmpmkt jdbkftuamq dq ifz bpmw liamp;
+kmvmptcmimqq, tcmqm nplbpmqqflk fk ifzq ecdpdetmp diilwma cmp tl amdi wftc
+qftudtflkq eimvmpiy, rut fq diql drim tl jlvm lk fk cmp lwk ifsm wcmk sdefkb
+tcm dryqq ls ifsm, fk alfkb cmp vmpy rmqt fk decfmvfkb bpmdt bldiq dka rmttmp tcfkbq,
+pmbdpaimqq ls ltcmpq kmbdtfvm fksiumkemq.'''))
 print()
 print(encrypt('''I have a dog, two cats, two tortoises, and a tank of fish. Once I had a mouse but it
                         ran away long time six years ago. Tomorrow is my dog's eighth year-old birthday. Although
@@ -71,3 +79,20 @@ print(encrypt('''I have a dog, two cats, two tortoises, and a tank of fish. Once
                         cat last year March. He was two weeks old then, and was weighted less than one kilogram.
                         Now he is about one and a half year-old but he is now six and a half kilograms!!! I am afraid
                         that he will get too fat in the future T^T'''))
+
+def cici(c):
+    c = list()
+    for i in range(7893600):
+        print(c)
+
+
+cici('''ifz cda qmvmpdi ecdpdetmpfqtfeq tcdt jdam cmp queemqqsui fk ifsm.
+tcmqm ecdpdetmpfqtfeq nplnmiima cmp tcplubc tmppfrim elkaftflkq fk cmp ecfiaclla,
+ifvfkb fk ecdlq, smdp, dka mvmk qussmpfkb splj bpmdt ilqqmq.
+tcm ecdpdetmpfqtfeq qcm nlqqmqqmq dpm slpbfvmkmqq dka rpdvmkmqq.
+tcmqm ecdpdetmpfqtfeq ecdkbma fk afssmpmkt jdbkftuamq dq ifz bpmw liamp;
+kmvmptcmimqq, tcmqm nplbpmqqflk fk ifzq ecdpdetmp diilwma cmp tl amdi wftc
+qftudtflkq eimvmpiy, rut fq diql drim tl jlvm lk fk cmp lwk ifsm wcmk sdefkb
+tcm dryqq ls ifsm, fk alfkb cmp vmpy rmqt fk decfmvfkb bpmdt bldiq dka rmttmp tcfkbq,
+pmbdpaimqq ls ltcmpq kmbdtfvm fksiumkemq.''')
+

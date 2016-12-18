@@ -57,3 +57,15 @@
 11/30: spent some of the class time doing the pluralizer and found out there are so many exceptions in english, which we had to include some of them in the program. 
 
 12/1: started with encrypting and decrypting the code with key. got some encrypted codes that we have to write a program to decrypt it without knowing the key. 
+
+12/5: new project: build a vocab. 
+
+12/7: keep building the vocab program and improved some of its functions. 
+
+12/8: working on the different sorting algorithms, including bubble sorts on the vocal program. 
+
+12/12: working on the insertion sort on the programs, and found out that insertion sort is faster than bubble sort. 
+
+12/14: started a new project —> getting 500 xp on the codeingame.com. solved the first easy tasks, started working on the second one. 
+
+12/15: keep playing the games on codinggame.com, to solve the 500 xp mission. but the tasks are hard, i found it a bit hard to solve the missions.
