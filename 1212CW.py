@@ -1,23 +1,14 @@
 #validating an email address
-
+import re
 #it has to contain a '@'
 
-email = input('Please enter an email address: ')
+def EmailValid():
+    testing ='testing@gmail.com'
+    check = re.match('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$', testing)
 
-#only one @
-#no spaces
-#no special charaters
-
-invalidCh = "#%:;,!?-$"
-for word in email:
-    for ch in word:
-        if ch in invalidCh:
-            print('This is a invalid email address')
-        elif email.count('@') > 1:
-            print('This is a invalid email address')
-
-
-
+    if check == None:
+        print('This is bad syntax')
+        raise ValueError('Bad syntax')
 
 
 #Write another Python function to validate the input of a date in format yyyy-mm-dd.
