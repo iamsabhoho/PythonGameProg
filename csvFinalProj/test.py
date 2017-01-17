@@ -12,8 +12,8 @@ powerschool = {'Teacher Name:':'', 'Section:':'Python', 'Assignment Name:':'', '
           'Extra Points:':'0', 'Score Type:':'Points','Student ID':'', 'Student Name':'', 'Points':''}
 
 #name and read the files
-fgoo = 'Test- GoogleClassroom.csv'
-fps1 = 'PowerSchoolTemplateRobotics_pst.csv'
+fgoo = 'GoogleActivities.csv'
+fps1 = 'PowerSchool Template.csv'
 
 print('1-Read google Classroom file')
 
@@ -38,23 +38,21 @@ for i, col in enumerate(gcDatadata[0]):
 
 print("")
 
-#due dates
-dateL = []
+#due date
+dateList = []
 week = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
-#month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-month = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "June": 6, "July": 7, "Aug": 8, "Sept": 9, "Oct": 10,
-         "Nov": 11, "Dec": 12}
+month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 dateStr = ''
 for num, date in enumerate(gcDatadata[1]):
     if num > 2:
         for m in range(len(month)):
             if date[3:6] == month[m]:
-                months = m+1
-        day = week[datetime.datetime(int('20' + date[-2:]), months, int(date[:2])).weekday()]
-        dateStr += day + ' ' + date[3:6] + ' ' + date[:2] + ' ' + '00:00:00 CST' + ' 20' + date[-2:]
-        dateL.append(dateStr)
+                numMonth = m+1
+        day = week[datetime.datetime(int('20'+date[-2:]),numMonth,int(date[:2])).weekday()]
+        dateStr += day + ' ' + date[3:6] + ' ' + date[:2] + ' ' + '00:00:00 CST' + ' 20'+date[-2:]
+        dateList.append(dateStr)
         dateStr = ''
-powerschool['Due Date:'] = dateL
+powerschool['Due Date:'] = dateList
 
 #student name
 cnt = 0
@@ -102,8 +100,8 @@ def newname(n):
 
 #writing all the informations
 for i in range(num):
-    newfilepws = open(newname(i+1))
-    writer = csv.writer(newfilepws, delimiter=',')
+    newPS = open(newname(i+1))
+    writer = csv.writer(newPS, delimiter=',')
     writer.writerow(['Teacher Name:'] + [powerschool['Teacher Name:']])
     writer.writerow(['Section:']+[powerschool['Section:']])
     for n, a in enumerate(powerschool['Assignment Name:']):
@@ -120,4 +118,4 @@ for i in range(num):
     for n in range(len(powerschool['Student ID'])):
         writer.writerow([powerschool['Student ID'][n]]+ [powerschool['Student Name'][n]]+
                         [powerschool['Points'][(len(gcDatadata[0])-3*n)+i]])
-    newfilepws.close()
+    newPS.close()
